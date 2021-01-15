@@ -17,3 +17,16 @@ $ conda install --yes --file requirements.txt
 ### 数据导入
 
 推荐直接用MySQL导入`data`目录下的`main.sql`（须先解压`main.zip`）。如失败，可以运行`create_db.py`进行导入（需要花费数小时的时间）。
+
+### 运行执行模块
+
+直接运行`executor.py`即可。
+
+### 运行所有模块
+
+命令行执行
+
+```shell
+$ python executor.py --run_all true
+```
+
