@@ -1,0 +1,11 @@
+.idea
+project_submit
+data_pred
+data
+venv
+__pycache__
+*.zip
+for_db_info.py
+main.py
+*.sql
+**/*.nt
